@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro nuevo usuario-SUNEGAMI</title>
+</head>
+<body>
+    <h1>Registro nuevo usuario-SUNEGAMI</h1>
+    <section id="seccion">
+        <h3> REGISTRO </h3>
+        <form action="index.html">
+            <p>Introduce tus datos</p>
+            <p><label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre" required></p>
+            <p><label>Apellidos: <input type="text" id="apellidos" name="apellidos" required></label></p>
+            <p><label for="pass">Contraseña: </label><input type="password" pattern="[a-zA-Z0-9._-]{4,20}" id="pass" name="pass" required></p>
+            <p><label for="pass2"> Repite contraseña: </label><input type="password" pattern="[a-zA-Z0-9._-]{4,20}" id="pass2" name="pass2" required></p>
+            <p><label for="email">Email: </label><input type="email" id="email" name="email" required></p>
+            <p><label for="sexo">Sexo: </label>
+                <select id="sexo" name="sexo">
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select>
+            </p>
+                <p><label for="ciudad">Ciudad: </label>
+                    <select id="ciudad" name="ciudad">
+                        <option value="1">Alicante</option>
+                        <option value="33">Madrid</option>
+                        <option value="40">Valencia</option>
+                    </select>
+            </p>
+                <p><label for="pais">País: </label>
+                    <select id="pais" name="pais">
+                        <option value="1">Alemania</option>
+                        <option value="33">España</option>
+                        <option value="40">Francia</option>
+                    </select>
+            </p>
+        </section>
+    <section id="foto">
+        <h4>Foto:</h4>
+        <label for="input-image"></label> 
+            <picture>
+                <img src="" alt="imagen">
+            </picture> 
+        <input type="file" accept="image/jpg, image/png, image/gif, image/jpeg" id="input-image">
+    </section>
+           <!-- <option value="seleccionar">Seleccionar</option> -->    
+        <input type="submit" value="Registrarse"></p>
+    </form>       
+</body>
+<footer>
+    <p>&copy;
+        <time datetime ="2023-09-25"> José Ángel Mercadillo & Octavio Gregorio Guerrero </time>
+        <abbr title = "DAW"> Practica 2 </abbr>
+    </p>
+</footer>
+</html>
+
+
+
+
