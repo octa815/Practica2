@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Búsqueda de Fotos - SUNEGAMI</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Búsqueda de Fotos - SUNEGAMI</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="buscar.html">Buscar</a></li>
+            <li><a href="registro.html">Registro</a></li>
+        </ul>
+    </nav>
+
+    <section id="formulario-busqueda">
+        <h2>Realizar una búsqueda de fotos</h2>
+        <form action="procesar_busqueda.php" method="get">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo">
+            <br>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+            <br>
+            <label for="pais">País:</label>
+            <input type="text" id="pais" name="pais">
+            <br>
+            <input type="submit" value="Buscar">
+        </form>
+    </section>
+</body>
+</html>
